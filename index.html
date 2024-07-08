@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+    rel="stylesheet"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <div class="main-container">
+    <header>
+      <input type="color" />
+      <select name="color-names" id="color-names">
+        <option value="monochrome">Monochrome</option>
+        <option value="monochrome-dark">Monochrome-dark</option>
+        <option value="monochrome-light">Monochrome-light</option>
+        <option value="analogic">Analogic</option>
+        <option value="complement">Complement</option>
+        <option value="analogic-complement">Analogic-complement</option>
+        <option value="triad">Triad</option>
+        <option value="quad">Quad</option>
+      </select>
+      <button>Get color scheme</button>
+    </header>
+    <main>
+      <div class="color-box" data-color="color1" style="background: rgba(245, 90, 90, 1)">
+        <p class="color-code" data-color="color1">#F55A5A</p>
+      </div>
+      <div class="color-box" data-color="color2" style="background: rgba(43, 40, 58, 1)">
+        <p class="color-code" data-color="color2">#2B283A</p>
+      </div>
+      <div class="color-box" data-color="color3" style="background: rgba(251, 243, 171, 1)">
+        <p class="color-code" data-color="color3">#FBF3AB</p>
+      </div>
+      <div class="color-box" data-color="color4" style="background: rgba(170, 209, 182, 1)">
+        <p class="color-code" data-color="color4">#AAD1B6</p>
+      </div>
+      <div class="color-box" data-color="color5" style="background: rgba(166, 38, 211, 1)">
+        <p class="color-code" data-color="color5">#A626D3</p>
+      </div>
+    </main>
+  </div>
+  <script src="index.js"></script>
+</body>
